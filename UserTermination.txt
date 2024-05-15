@@ -49,7 +49,7 @@ $TargetUPN = Read-Host -Prompt "Please enter the email address of the user to be
 
 
 #PowerShell to add a user to office 365 group
-#Add-DistributionGroupMember -Identity "disabled_employee@rsa.org.il" -LinkType "Members" -Links $TargetUPN
+#Add-DistributionGroupMember -Identity "<disabled_employee@blabla.com>" -LinkType "Members" -Links $TargetUPN
 
 #PowerShell to remove from all groups user member of
 
